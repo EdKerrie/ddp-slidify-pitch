@@ -15,7 +15,7 @@ runtime     : shiny
 
 1. Dataset
 
-2. Interactive Plot
+2. Example Plot
 
 3. Thanks
 

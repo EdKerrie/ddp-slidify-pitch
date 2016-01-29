@@ -1,0 +1,17 @@
+{
+    "contents" : "---\ntitle       : Pitch Presentation\nsubtitle    : Black Cherry Trees Characteristics\nauthor      : Jesse van den Berg\nframework   : io2012   # {io2012, html5slides, shower, dzslides, ...}\nhighlighter : highlight.js  # {highlight.js, prettify, highlight}\nhitheme     : tomorrow      # \nwidgets     : []            # {mathjax, quiz, bootstrap}\nmode        : selfcontained # {standalone, draft}\nknit        : slidify::knit2slides\nruntime     : shiny\n---\n\n## Content\n\n1. Dataset\n\n2. Example Plot\n\n3. Thanks\n\n---\n\n## Dataset\n\nThe used dataset is in the datasets package in R. It provides measurements of 3 characteristics of 31 felled black cherry trees.The characteristics are:\n- Girth (inch)\n- Height (ft)\n- Volume (ft)\n\n---\n\n## Example of a possible Plot\n\n```{r simple-plot, fig.height=6, fig.align='center', message=FALSE}\nlibrary(ggplot2)\nlibrary(datasets)\nqplot(Height, Volume, data=trees)\n```\n\n---\n\n## Thank you for reviewing my app\n\nI hope you enjoyed this. \n\nPlease do not hesitate to give any feedback.\n\nThank you for your time\n",
+    "created" : 1454058228421.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1073240995",
+    "id" : "20884F54",
+    "lastKnownWriteTime" : 1454058256,
+    "path" : "~/Coursera/DevelopingDataProducts/DDP_Slidify_Pitch/index.Rmd",
+    "project_path" : "index.Rmd",
+    "properties" : {
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "type" : "r_markdown"
+}
